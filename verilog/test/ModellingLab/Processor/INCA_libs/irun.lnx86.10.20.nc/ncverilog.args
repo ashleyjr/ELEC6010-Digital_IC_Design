@@ -1,0 +1,13 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-sv
++gui
++ncaccess+r
+-y
+library
++libext+.sv
++incdir+library
+system.sv
++tcl+system.tcl

@@ -1,0 +1,17 @@
+* HSPICE file created from inv_ld.ext - technology: c035u
+
+.option scale=0.05u
+
+m1000 n2 out Vdd Vdd pmos03553 w=26 l=7
+m1001 n2 out GND GND nmos03553 w=16 l=7
+m1002 n1 out Vdd Vdd pmos03553 w=26 l=7
+m1003 n1 out GND GND nmos03553 w=16 l=7
+m1004 out in Vdd Vdd pmos03553 w=26 l=7
+m1005 out in GND GND nmos03553 w=16 l=7
+C0 in GND 0.9fF
+C1 n1 GND 1.3fF
+C2 n2 GND 1.3fF
+C3 out GND 2.9fF
+C4 Vdd GND 1.0fF
+
+** hspice subcircuit dictionary

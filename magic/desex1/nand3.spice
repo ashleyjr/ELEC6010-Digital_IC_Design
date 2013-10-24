@@ -1,0 +1,17 @@
+* HSPICE file created from nand3.ext - technology: c035u
+
+.option scale=0.05u
+
+m1000 Y A Vdd Vdd pmos03553 w=38 l=7
+m1001 Vdd B Y Vdd pmos03553 w=38 l=7
+m1002 Y C Vdd Vdd pmos03553 w=38 l=7
+m1003 active_27_25 A GND GND nmos03553 w=26 l=7
+m1004 active_54_25 B active_27_25 GND nmos03553 w=26 l=7
+m1005 Y C active_54_25 GND nmos03553 w=26 l=7
+C0 Y GND 1.6fF
+C1 C GND 0.8fF
+C2 B GND 0.8fF
+C3 A GND 0.8fF
+C4 Vdd GND 0.8fF
+
+** hspice subcircuit dictionary

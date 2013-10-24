@@ -1,0 +1,26 @@
+timestamp 1382451818
+version 5.1
+tech c035u
+style poor
+scale 1000 1000 5
+resistclasses 2 72 55
+node "active_56_34#" 0 0 56 34 green 0 0 0 0 0 0
+node "active_29_34#" 0 0 29 34 green 0 0 0 0 0 0
+node "GND!" 1 0.74234 4 34 ndc 0 0 2696 368 0 0
+equiv "GND!" "GND!"
+node "Y" 1 1.46024 29 103 brown 1057 330 1962 262 0 0
+equiv "Y" "Y"
+node "C" 0 0.723899 76 0 p 777 264 0 0 0 0
+equiv "C" "C"
+node "B" 0 0.723899 49 0 p 777 264 0 0 0 0
+equiv "B" "B"
+node "A" 0 0.723899 22 0 p 777 264 0 0 0 0
+equiv "A" "A"
+node "Vdd!" 1 0.76102 0 81 nw 0 0 2872 386 0 0
+equiv "Vdd!" "Vdd!"
+fet nfet 76 34 77 35 182 66 "GND!" "C" 14 0 "active_56_34#" 26 0 "Y" 26 0
+fet nfet 49 34 50 35 182 66 "GND!" "B" 14 0 "active_29_34#" 26 0 "active_56_34#" 26 0
+fet nfet 22 34 23 35 182 66 "GND!" "A" 14 0 "GND!" 26 0 "active_29_34#" 26 0
+fet pfet 76 103 77 104 210 74 "Vdd!" "C" 14 0 "Vdd!" 30 0 "Y" 30 0
+fet pfet 49 103 50 104 210 74 "Vdd!" "B" 14 0 "Y" 30 0 "Vdd!" 30 0
+fet pfet 22 103 23 104 210 74 "Vdd!" "A" 14 0 "Vdd!" 30 0 "Y" 30 0

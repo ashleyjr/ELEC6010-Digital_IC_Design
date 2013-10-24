@@ -1,0 +1,7 @@
+| units: 5 tech: c035u format: SU
+p A Vdd! Y 7 38 20 96
+p B Y Vdd! 7 38 47 96
+p C Vdd! Y 7 38 74 96
+n A GND! active_27_25# 7 26 20 25
+n B active_27_25# active_54_25# 7 26 47 25
+n C active_54_25# Y 7 26 74 25

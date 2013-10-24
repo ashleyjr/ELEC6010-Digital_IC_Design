@@ -1,0 +1,26 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "15:44:53 10/22/2013 "
+* "netlist" "nand3_ld.sp "
+* "runtitle" "** hspice file for nand3_ld"
+* time =    0.            
+* temperature =   27.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000n       
+.nodeset
++ a =   3.3000        
++ b =   3.3000        
++ c =   3.3000        
++ vdd =   3.3000        
++ x0/active_29_34 =   2.5182        
++ x0/active_56_34 =   2.5441        
++ x1/active_29_34 =   2.5182        
++ x1/active_56_34 =   2.5441        
++ x2/active_29_34 =  25.3571u       
++ x2/active_56_34 =  50.7145u       
++ y =  76.0721u       
++ yld0 =   3.2999        
++ yld1 =   3.2999        
+***   END: Saved Operating Point ***                     

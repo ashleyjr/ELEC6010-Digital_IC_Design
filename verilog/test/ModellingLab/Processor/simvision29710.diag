@@ -1,0 +1,112 @@
+*** Message Type: info ***
+When: Thu Oct 24 11:12:16 BST 2013
+SimVision started.
+Version: TOOL:  simvision       10.20-s073
+User: ajr2g10
+Host: hart.ecs.soton.ac.uk
+Platform: Linux/x86_64/2.6.18-164.11.1.el5_ECS1
+Started: Thu Oct 24 11:12:16 BST 2013
+Command: /opt/cad/soft/cadence/ius/tools.lnx86/simvision/bin/simvision.exe -connect dc:hart.ecs.soton.ac.uk:53158 -nocopyright
+Work Directory: /home/ajr2g10/design/verilog/test/ModellingLab/Processor
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:12:16 BST 2013
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:12:18 BST 2013
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:12:19 BST 2013
+Connect to Simulator
+      Design: worklib.system:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:  ncsim   10.20-s073
+        User: ajr2g10
+        Host: hart.ecs.soton.ac.uk
+Time Started: Thu Oct 24 11:12:15 BST 2013
+  Process ID: 29705
+   Directory: /home/ajr2g10/design/verilog/test/ModellingLab/Processor
+     Command: ncverilog -sv +gui +ncaccess+r -y library +libext+.sv +incdir+library system.sv +tcl+system.tcl
+
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:12:19 BST 2013
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:12:21 BST 2013
+Create waveform window: "Waves for a Simple Microprocessor"
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:12:22 BST 2013
+Create register window: "Registers for a Simple Microprocessor"
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:13:35 BST 2013
+Create schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:26:34 BST 2013
+Delete schematic window: "Schematic Tracer 1"
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:37:34 BST 2013
+Delete waveform window: "Waves for a Simple Microprocessor"
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:37:36 BST 2013
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:37:37 BST 2013
+Exit NC-Sim: user
+      Design: worklib.system:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:  ncsim   10.20-s073
+        User: ajr2g10
+        Host: hart.ecs.soton.ac.uk
+Time Started: Thu Oct 24 11:12:15 BST 2013
+  Process ID: 29705
+   Directory: /home/ajr2g10/design/verilog/test/ModellingLab/Processor
+     Command: ncverilog -sv +gui +ncaccess+r -y library +libext+.sv +incdir+library system.sv +tcl+system.tcl
+
+ 
+*** Message Type: error ***
+When: Thu Oct 24 11:37:39 BST 2013
+NC-Sim Crashed:
+      Design: worklib.system:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:  ncsim   10.20-s073
+        User: ajr2g10
+        Host: hart.ecs.soton.ac.uk
+Time Started: Thu Oct 24 11:12:15 BST 2013
+  Process ID: 29705
+   Directory: /home/ajr2g10/design/verilog/test/ModellingLab/Processor
+     Command: ncverilog -sv +gui +ncaccess+r -y library +libext+.sv +incdir+library system.sv +tcl+system.tcl
+      Design: worklib.system:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:  ncsim   10.20-s073
+        User: ajr2g10
+        Host: hart.ecs.soton.ac.uk
+Time Started: Thu Oct 24 11:12:15 BST 2013
+  Process ID: 29705
+   Directory: /home/ajr2g10/design/verilog/test/ModellingLab/Processor
+     Command: ncverilog -sv +gui +ncaccess+r -y library +libext+.sv +incdir+library system.sv +tcl+system.tcl
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:37:40 BST 2013
+Delete register window: "Registers for a Simple Microprocessor"
+ 
+*** Message Type: info ***
+When: Thu Oct 24 11:37:43 BST 2013
+SimVision Exit.
+ 

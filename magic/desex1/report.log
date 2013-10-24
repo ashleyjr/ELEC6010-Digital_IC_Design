@@ -1,0 +1,33 @@
+       Found directory /home/ajr2g10/design/magic/desex1
+
+       Found magic file nand3.mag
+       Found magic file nand3_ld.mag
+       Found HSpice netlist file nand3_ld.spice
+       Found HSpice stimulus file nand3_ld.sp
+       basic file checks completed ok
+
+       Found nand3 used in nand3_ld
+       more file checks completed ok
+
+
+       Please confirm the following input values:
+
+         W(NMOS) = 1.3 microns ( 26 magic units )
+         W(PMOS) = 15 microns ( 300 magic units )
+
+         Tr = 226 ps
+         Tf = 225 ps
+
+
+       Please confirm the following input values:
+
+         W(NMOS) = 1.3 microns ( 26 magic units )
+         W(PMOS) = 1.5 microns ( 30 magic units )
+
+         Tr = 226 ps
+         Tf = 225 ps
+
+
+       Writing infofile.txt
+
+       Writing handin.tar

@@ -1,0 +1,3 @@
+| units: 5 tech: c035u format: SU
+p in Vdd! out 7 26 20 87
+n in GND! out 7 16 20 31

@@ -1,0 +1,59 @@
+***** HSPICE -- D-2010.03-SP1 32-BIT (May 27 2010) linux ******
+ Input File: nand3_ld.sp
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   ajr2g10              HOSTNAME: hart.ecs.soton.ac.uk
+ lic: HOSTID: 002219c93c07         PID:      11296
+ lic: Using FLEXlm license file:
+ lic: 27006@uos-licserv4.soton.ac.uk
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 06-may-2014/2013.03
+ lic: FLOATING license(s) on SERVER uos-licserv4.soton.ac.uk
+ lic:
+ init: begin read circuit files,  cpu clock=  0.00E+00
+       option search   = /opt/cad/soft/synopsys/hspice/parts/ad
+       option search   = /opt/cad/soft/synopsys/hspice/parts/behave
+       option search   = /opt/cad/soft/synopsys/hspice/parts/bjt
+       option search   = /opt/cad/soft/synopsys/hspice/parts/burr_brn
+       option search   = /opt/cad/soft/synopsys/hspice/parts/comlinear
+       option search   = /opt/cad/soft/synopsys/hspice/parts/dio
+       option search   = /opt/cad/soft/synopsys/hspice/parts/fet
+       option search   = /opt/cad/soft/synopsys/hspice/parts/lin_tech
+       option search   = /opt/cad/soft/synopsys/hspice/parts/pci
+       option search   = /opt/cad/soft/synopsys/hspice/parts/signet
+       option search   = /opt/cad/soft/synopsys/hspice/parts/ti
+       option search   = /opt/cad/soft/synopsys/hspice/parts/tline
+       option search   = /opt/cad/soft/synopsys/hspice/parts/xilinx
+       option tnom     =     27.0
+       option scalm    =     1.00
+       option aspec    =     0.00
+       option tnom     =     27.0
+       option scalm    =     1.00
+       option aspec    =     0.00
+       option scale    =    5.000E-08
+       option post
+       option gmindc   =    1.000E-09
+ init: end read circuit files,  cpu clock=  1.00E-02 memory=    280 kb
+ init: begin check errors,  cpu clock=  1.00E-02
+ init: end check errors,  cpu clock=  1.00E-02 memory=    281 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.00E-02
+       establish matrix -- done,  cpu clock=  1.00E-02 memory=    287 kb
+       re-order matrix -- done,  cpu clock=  1.00E-02 memory=    286 kb
+ init: end setup matrix,  cpu clock=  1.00E-02 memory=    312 kb
+ dcop: begin dcop,  cpu clock=  1.00E-02
+ dcop: end dcop,  cpu clock=  1.00E-02 memory=    312 kb  tot_iter=      13
+ output: nand3_ld.mt0
+ sweep: tran tran0    begin, stop_t=  2.00E-08 #sweeps=2001 cpu clock=  1.00E-02
+ tran: time= 2.0000E-09 tot_iter=      15 conv_iter=       7 cpu clock= 1.00E-02
+ tran: time= 4.2552E-09 tot_iter=     115 conv_iter=      35 cpu clock= 2.00E-02
+ tran: time= 6.0163E-09 tot_iter=     225 conv_iter=      62 cpu clock= 3.00E-02
+ tran: time= 8.0000E-09 tot_iter=     237 conv_iter=      66 cpu clock= 3.00E-02
+ tran: time= 1.0227E-08 tot_iter=     362 conv_iter=      99 cpu clock= 4.00E-02
+ tran: time= 1.2117E-08 tot_iter=     466 conv_iter=     125 cpu clock= 5.00E-02
+ tran: time= 1.4000E-08 tot_iter=     478 conv_iter=     129 cpu clock= 5.00E-02
+ tran: time= 1.6180E-08 tot_iter=     628 conv_iter=     171 cpu clock= 6.00E-02
+ tran: time= 1.8185E-08 tot_iter=     715 conv_iter=     195 cpu clock= 7.00E-02
+ tran: time= 2.0000E-08 tot_iter=     727 conv_iter=     199 cpu clock= 7.00E-02
+ sweep: tran tran0    end,  cpu clock=  7.00E-02 memory=    312 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

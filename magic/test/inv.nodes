@@ -1,0 +1,4 @@
+94 GND! 10 155 ndc;
+94 out 135 155 green;
+94 in 100 0 p;
+94 Vdd! 0 340 nw;

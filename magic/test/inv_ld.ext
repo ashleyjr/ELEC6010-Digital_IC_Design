@@ -1,0 +1,23 @@
+timestamp 1381396119
+version 5.1
+tech c035u
+style poor
+scale 1000 1000 5
+resistclasses 2 72 55
+use inv inv_0 1 0 0 0 1 0
+use inv inv_1 1 0 65 0 1 0
+use inv inv_2 1 0 130 0 1 0
+node "n2" 0 0.306556 184 144 p 308 102 0 0 0 0
+node "n1" 0 0.306556 119 144 p 308 102 0 0 0 0
+node "out" 1 0.693337 50 156 pc 371 162 640 168 0 0
+node "in" 0 0.306556 20 144 p 308 102 0 0 0 0
+merge "inv_2/GND!" "inv_1/GND!" -0.1624 0 0 0 -80 0 0
+merge "inv_1/GND!" "inv_0/GND!"
+merge "inv_2/in" "inv_1/in" -0.09744 0 -42 0 0 0 0
+merge "inv_1/in" "inv_0/out"
+merge "inv_0/out" "out"
+merge "inv_2/Vdd!" "inv_1/Vdd!" -0.1624 0 0 0 -80 0 0
+merge "inv_1/Vdd!" "inv_0/Vdd!"
+merge "inv_2/out" "n2" -0.03248 0 -14 0 0 0 0
+merge "inv_1/out" "n1" -0.03248 0 -14 0 0 0 0
+merge "inv_0/in" "in" -0.03248 0 -14 0 0 0 0

@@ -1,0 +1,16 @@
+timestamp 1381396119
+version 5.1
+tech c035u
+style poor
+scale 1000 1000 5
+resistclasses 2 72 55
+node "GND!" 1 0.42546 2 31 ndc 0 0 1204 254 0 0
+equiv "GND!" "GND!"
+node "out" 0 0.998112 27 31 green 896 284 640 112 0 0
+equiv "out" "out"
+node "in" 0 0.667838 20 0 p 714 246 0 0 0 0
+equiv "in" "in"
+node "Vdd!" 1 0.39298 0 68 nw 0 0 1204 222 0 0
+equiv "Vdd!" "Vdd!"
+fet nfet 20 31 21 32 112 46 "GND!" "in" 14 0 "GND!" 16 0 "out" 16 0
+fet pfet 20 87 21 88 182 66 "Vdd!" "in" 14 0 "Vdd!" 26 0 "out" 26 0

@@ -1,0 +1,11 @@
+FILE: infofile.txt
+USER: ajr2g10
+DATE: Tue Oct 22 15:44:49 BST 2013
+CELL: nand3
+FIXED: NMOS
+NMOSwidth_microns: 1.3
+PMOSwidth_microns: 1.5
+Tr: 226
+Tf: 225
+NMOSwidth_units: 26
+PMOSwidth_units: 30

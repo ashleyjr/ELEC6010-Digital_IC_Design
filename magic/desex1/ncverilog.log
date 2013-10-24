@@ -1,0 +1,46 @@
+ncverilog: 10.20-s073: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+TOOL:	ncverilog	10.20-s073: Started on Oct 22, 2013 at 15:01:04 BST
+ncverilog
+	nand3_ld_stim.sv
+	nand3_ld.sv
+Recompiling... reason: file './nand3_ld_stim.sv' is newer than expected.
+	expected: Sat Oct 19 16:49:48 2013
+	actual:   Sat Oct 19 16:52:42 2013
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Primitives:              20       5
+		Registers:                3       3
+		Scalar wires:            12       -
+		Initial blocks:           2       2
+		Pseudo assignments:       3       3
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.nand3_ld_stim:sv
+Loading snapshot worklib.nand3_ld_stim:sv .................... Done
+ncsim> source /opt/cad/soft/cadence/ius/tools/inca/files/ncsimrc
+ncsim> run
+                   0 0 0 0 x x x 
+                   1 0 0 0 1 x x 
+                   3 0 0 0 1 0 0 
+                1000 1 0 0 1 0 0 
+                2000 1 1 0 1 0 0 
+                3000 1 1 1 1 0 0 
+                3001 1 1 1 0 0 0 
+                3002 1 1 1 0 x x 
+                3003 1 1 1 0 1 1 
+                4000 0 1 1 0 1 1 
+                4001 0 1 1 x 1 1 
+                4002 0 1 1 1 x x 
+                4003 0 1 1 1 z z 
+                4004 0 1 1 1 0 0 
+                5000 0 0 1 1 0 0 
+                6000 0 0 0 1 0 0 
+Simulation stopped via $stop(1) at time 7 US + 0
+./nand3_ld_stim.sv:48           $stop;
+ncsim> exit
+TOOL:	ncverilog	10.20-s073: Exiting on Oct 22, 2013 at 15:01:18 BST  (total: 00:00:14)

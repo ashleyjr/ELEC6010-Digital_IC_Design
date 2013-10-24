@@ -1,0 +1,14 @@
+94 nand3_0/active_64_37# 315 185 green;
+94 nand3_0/active_37_37# 180 185 green;
+94 C 415 0 p;
+94 B 280 0 p;
+94 A 145 0 p;
+94 nand3_1/active_64_37# 935 185 green;
+94 nand3_1/active_37_37# 800 185 green;
+94 Yld0 800 540 brown;
+94 nand3_2/active_64_37# 1555 185 green;
+94 nand3_2/active_37_37# 1420 185 green;
+94 GND! 55 185 ndc;
+94 Yld1 1420 540 brown;
+94 Y 765 0 p;
+94 Vdd! 900 0 p;

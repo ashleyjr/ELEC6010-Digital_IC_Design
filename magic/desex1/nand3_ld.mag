@@ -1,0 +1,56 @@
+magic
+tech c035u
+timestamp 1382451940
+<< polysilicon >>
+rect 22 193 29 220
+rect 49 193 56 220
+rect 76 193 83 220
+rect 109 193 116 220
+rect 166 193 173 203
+rect 193 193 200 203
+rect 226 193 233 220
+rect 283 192 290 203
+rect 310 193 317 203
+rect 343 193 350 220
+rect 109 16 116 26
+rect 139 16 146 26
+rect 256 16 263 26
+<< polycontact >>
+rect 162 203 178 219
+rect 189 203 205 219
+rect 278 203 295 219
+rect 305 203 322 219
+rect 105 0 121 16
+rect 135 0 151 16
+rect 252 0 268 16
+<< metal1 >>
+rect 178 203 189 219
+rect 205 203 278 219
+rect 295 203 305 219
+rect 322 203 370 219
+rect 351 169 370 203
+rect 351 26 370 50
+rect 121 0 135 16
+rect 151 0 252 16
+use nand3 nand3_0
+timestamp 1382451818
+transform 1 0 0 0 1 26
+box 0 0 117 167
+use nand3 nand3_1
+timestamp 1382451818
+transform 1 0 117 0 1 26
+box 0 0 117 167
+use nand3 nand3_2
+timestamp 1382451818
+transform 1 0 234 0 1 26
+box 0 0 117 167
+<< labels >>
+rlabel polysilicon 109 220 116 220 5 Y
+rlabel polysilicon 343 220 350 220 5 Yld1
+rlabel polysilicon 226 220 233 220 5 Yld0
+rlabel polysilicon 76 220 83 220 5 C
+rlabel polysilicon 49 220 56 220 5 B
+rlabel polysilicon 22 220 29 220 5 A
+rlabel metal1 370 26 370 50 7 GND!
+rlabel metal1 370 169 370 219 7 Vdd!
+<< end >>

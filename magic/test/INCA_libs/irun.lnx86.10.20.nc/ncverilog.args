@@ -1,0 +1,9 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-sv
++access+r
+inv_stim.sv
+inv.sv
++tcl+inv.tcl

@@ -1,0 +1,121 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/ajr2g10/design/magic/desex1/nand3_ld.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 233x341+1680+533
+pf:read PF:1 v(a)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:1 v(b)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:1 v(c)
+# WF:1:3
+Graph addsignal WF:1:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:1 v(y)
+# WF:1:4
+Graph addsignal WF:1:4 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:FullSize
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph0
+Graph axisconfig AxisX(0) -range {1.48098n 3.64933n}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+GrMeas:P2P Graph0 Signal3 Signal3 1 {{} {} {} {}} xyrangeVisible {X1,Y1 X2,Y2 DeltaX DeltaY Length Slope}
+# M:0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+GrMeas:P2P Graph0 Signal0 Signal0 1 {{} {} {} {}} xyrangeVisible {X1,Y1 X2,Y2 DeltaX DeltaY Length Slope}
+# M:1
+Graph:DSel
+GrMeas:Select Graph0 M:1 0 1
+GrMeas:MoveDiffAnc1 Graph0 M:1 0 2.0841364351289n 2.1893988642277
+GrMeas:MoveDiffAnc2 Graph0 M:1 0 2.1543713621394n 1.2622972744439
+Graph:DSel
+GrMeas:Select Graph0 M:0 0 1
+GrMeas:MoveDiffAnc1 Graph0 M:0 0 2.228738456099n 1.0863866457686
+GrMeas:MoveDiffAnc2 Graph0 M:0 0 2.273211657377n 1.7257835229684
+GrMeas:MoveDiffAnc1 Graph0 M:0 0 2.2539937227892n 1.4470891465163
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{2.7876074455025 -0.70683186242267} {2.2080886738n 2.3954963862n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:0 0 1
+GrMeas:MoveDiffAnc1 Graph0 M:0 0 2.2619346760108n 1.5668695244054
+GrMeas:MoveDiffAnc2 Graph0 M:0 0 2.2675673371762n 1.646784943214
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisX(0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {{-2.3 6.1 } {2.1n 2.5n } {-2.3 6.1 } {-2.3 6.1 } {-5.0 7.0 }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisX(0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {{-12.5 17.5 } {1.825n 2.725n } {-12.5 17.5 } {-12.5 17.5 } {-20.0 20.0 }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisX(0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {{-40.0 40.0 } {1.3n 3.3n } {-40.0 40.0 } {-40.0 40.0 } {-44.0 44.0 }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisX(0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {{-40.0 40.0 } {1.3n 3.3n } {-40.0 40.0 } {-40.0 40.0 } {-44.0 44.0 }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig AxisX(0) -range {1.684412668n 2.3499438321n}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:0 0 1
+GrMeas:MoveDiffAnc1 Graph0 M:0 0 5.2499999563256n 1.2642551060868
+GrMeas:MoveDiffAnc2 Graph0 M:0 0 5.1913491002191n 2.2599919915041
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{3.8911145953736 -0.96431686405927} {4.51409n 6.26943n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{3.4497117354252 -0.96431686405927} {5.1431043113n 5.3883347889n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:0 0 1
+GrMeas:MoveDiffAnc1 Graph0 M:0 0 5.2235041473981n 1.6848212756412
+GrMeas:MoveDiffAnc2 Graph0 M:0 0 5.2177248084781n 1.7846854509
+GrMeas:MoveDiffAnc1 Graph0 M:0 0 5.2211676633218n 1.7226429212375
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

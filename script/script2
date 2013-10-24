@@ -1,0 +1,32 @@
+#! /bin/sh
+
+echo Checking directory structure for user: $USER
+
+if [ -d "/home/$USER/design/cadence" ]
+then
+  echo Found Cadence directory
+else
+  echo No Cadence directory
+fi
+
+if [ -d "/home/$USER/design/magic/test" ]
+then
+  echo Found Magic test directory
+else
+  echo No Magic test directory
+fi
+
+if [ -d "/home/$USER/design/verilog/test" ]
+then
+  echo Found Verilog test directory
+else
+  echo No Verilog test directory
+fi
+
+if [ "$2" = "autocorrect" ]
+then
+  mkdir -p "/home/$1/design/cadence"
+  mkdir -p "/home/$1/design/magic/test"
+  mkdir -p "/home/$1/design/verilog/test"
+fi
+

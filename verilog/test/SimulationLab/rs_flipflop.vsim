@@ -1,0 +1,15 @@
+# ModelSim command script rs_flipflop.vsim
+
+# Open new waveform window
+
+  view wave -undock
+
+# Probe primary I/O
+
+  add wave -label "notR" notR
+  add wave -label "notS" notS
+  add wave -label "Q" Q
+
+# Probe internal signal
+
+  add wave -label "not_q" rs_instance1/not_q

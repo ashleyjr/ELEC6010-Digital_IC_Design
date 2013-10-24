@@ -1,0 +1,31 @@
+# =========================================================================
+# ModelSim command script up_down_count.vsim
+
+# =========================================================================
+# Wave Window
+
+  # Open new waveform window
+
+    view wave -undock
+
+  # Add signals to wave window
+
+    add wave -label "Clock"                   Clock
+    add wave -label "nReset"                  nReset
+    add wave -label "Up"                      Up
+    add wave -label "Down"                    Down
+    add wave -label "Count" -unsigned -expand Count
+
+# =========================================================================
+# List Window
+
+  # Open new list window
+
+    view list -x 0 -width 400
+
+  # Add signals to list window
+
+    add list -label "Direction of count"  -ascii       direction
+    add list -label "Count (hexadecimal)" -hexadecimal Count
+    add list -label "Count (decimal)"     -unsigned    Count
+    add list -label "Count (binary)"      -binary      Count

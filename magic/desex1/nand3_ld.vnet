@@ -1,0 +1,21 @@
+pullup (supply0,supply1)( vdd );
+pulldown (supply0,supply1)( gnd );
+
+pmos #1 ( Yld1 , vdd , Y );
+pmos #1 ( Yld1 , vdd , vdd );
+pmos #1 ( Yld1 , vdd , vdd );
+nmos #1 ( \nand3_2/active_37_37# , gnd , Y );
+nmos #1 ( \nand3_2/active_64_37# , \nand3_2/active_37_37# , vdd );
+tranif1 #1 ( \nand3_2/active_64_37# , Yld1 , vdd );
+pmos #1 ( Yld0 , vdd , Y );
+pmos #1 ( Yld0 , vdd , vdd );
+pmos #1 ( Yld0 , vdd , vdd );
+nmos #1 ( \nand3_1/active_37_37# , gnd , Y );
+nmos #1 ( \nand3_1/active_64_37# , \nand3_1/active_37_37# , vdd );
+tranif1 #1 ( \nand3_1/active_64_37# , Yld0 , vdd );
+pmos #1 ( Y , vdd , A );
+pmos #1 ( Y , vdd , B );
+pmos #1 ( Y , vdd , C );
+nmos #1 ( \nand3_0/active_37_37# , gnd , A );
+nmos #1 ( \nand3_0/active_64_37# , \nand3_0/active_37_37# , B );
+tranif1 #1 ( \nand3_0/active_64_37# , Y , C );

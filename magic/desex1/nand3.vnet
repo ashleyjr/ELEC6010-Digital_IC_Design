@@ -1,0 +1,9 @@
+pullup (supply0,supply1)( vdd );
+pulldown (supply0,supply1)( gnd );
+
+pmos #1 ( Y , vdd , A );
+pmos #1 ( Y , vdd , B );
+pmos #1 ( Y , vdd , C );
+nmos #1 ( \active_27_25# , gnd , A );
+nmos #1 ( \active_54_25# , \active_27_25# , B );
+tranif1 #1 ( \active_54_25# , Y , C );

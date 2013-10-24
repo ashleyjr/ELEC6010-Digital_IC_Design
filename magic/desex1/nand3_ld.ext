@@ -1,0 +1,37 @@
+timestamp 1382451940
+version 5.1
+tech c035u
+style poor
+scale 1000 1000 5
+resistclasses 2 72 55
+use nand3 nand3_0 1 0 0 0 1 26
+use nand3 nand3_1 1 0 117 0 1 26
+use nand3 nand3_2 1 0 234 0 1 26
+node "GND!" 0 0.20194 351 26 m1 0 0 456 86 0 0
+node "active_105_0#" 1 0.81289 105 0 pc 210 102 1840 294 0 0
+node "Yld1" 0 0.200663 343 193 p 189 68 0 0 0 0
+node "Yld0" 0 0.200663 226 193 p 189 68 0 0 0 0
+node "Vdd!" 1 1.24247 162 203 pc 287 138 2918 480 0 0
+node "Y" 0 0.200663 109 193 p 189 68 0 0 0 0
+node "C" 0 0.200663 76 193 p 189 68 0 0 0 0
+node "B" 0 0.200663 49 193 p 189 68 0 0 0 0
+node "A" 0 0.200663 22 193 p 189 68 0 0 0 0
+merge "nand3_1/Y" "Yld0" -0.021357 49 -14 0 0 0 0
+merge "nand3_2/GND!" "nand3_1/GND!" -0.09744 0 0 0 -48 0 0
+merge "nand3_1/GND!" "nand3_0/GND!"
+merge "nand3_0/GND!" "GND!"
+merge "nand3_2/A" "nand3_1/A" -0.035658 -14 -14 0 0 0 0
+merge "nand3_1/A" "nand3_0/Y"
+merge "nand3_0/Y" "active_105_0#"
+merge "active_105_0#" "Y"
+merge "nand3_2/Vdd!" "nand3_1/Vdd!" -0.236967 59 -58 -306 -48 0 0
+merge "nand3_1/Vdd!" "nand3_0/Vdd!"
+merge "nand3_0/Vdd!" "nand3_2/C"
+merge "nand3_2/C" "nand3_2/B"
+merge "nand3_2/B" "nand3_1/C"
+merge "nand3_1/C" "nand3_1/B"
+merge "nand3_1/B" "Vdd!"
+merge "nand3_0/B" "B" -0.021357 49 -14 0 0 0 0
+merge "nand3_0/A" "A" -0.021357 49 -14 0 0 0 0
+merge "nand3_0/C" "C" -0.021357 49 -14 0 0 0 0
+merge "nand3_2/Y" "Yld1" -0.021357 49 -14 0 0 0 0

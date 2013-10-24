@@ -1,0 +1,15 @@
+magic
+tech c035u
+timestamp 1381997987
+<< error_s >>
+rect 125 81 152 173
+rect 127 30 128 56
+use nand3 nand3_0
+timestamp 1381997126
+transform 1 0 9 0 1 5
+box 0 -12 116 169
+use nand3 nand3_1
+timestamp 1381997126
+transform 1 0 125 0 1 5
+box 0 -12 116 169
+<< end >>

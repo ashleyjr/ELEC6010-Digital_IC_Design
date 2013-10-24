@@ -1,0 +1,76 @@
+ncverilog: 10.20-s073: (c) Copyright 1995-2011 Cadence Design Systems, Inc.
+TOOL:	ncverilog	10.20-s073: Started on Oct 10, 2013 at 09:42:12 BST
+ncverilog
+	-sv
+	+access+r
+	inv_stim.sv
+	inv.sv
+	+tcl+inv.tcl
+Recompiling... reason: file './inv.sv' is newer than expected.
+	expected: Thu Oct 10 09:08:21 2013
+	actual:   Thu Oct 10 09:42:08 2013
+file: inv_stim.sv
+	module worklib.inv_stim:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.inv_stim:sv <0x4e535eec>
+			streams:   5, words:  3146
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  2       2
+		Primitives:               4       4
+		Registers:                1       1
+		Scalar wires:             2       -
+		Always blocks:            1       1
+		Initial blocks:           2       2
+		Pseudo assignments:       1       1
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.inv_stim:sv
+Loading snapshot worklib.inv_stim:sv .................... Done
+ncsim> source /opt/cad/soft/cadence/ius/tools/inca/files/ncsimrc
+ncsim> # SimVision command script inv.tcl for inv
+ncsim> # created by ext2svmod 5.5
+ncsim> 
+ncsim> database -open waves
+Created SHM database waves
+ncsim> probe -all -depth all -database waves
+Created probe 1
+ncsim> run
+                   0 0 x 
+                   1 0 1 
+                 250 1 1 
+                 251 1 0 
+                 750 0 0 
+                 751 0 1 
+Simulation stopped via $stop(1) at time 1 US + 0
+./inv_stim.sv:36           $stop;
+ncsim> 
+ncsim> simvision {
+> 
+> # List of signals to monitor defined here
+> #
+> set wave_signal_list {
+>   inv_stim.in
+>   inv_stim.out
+> }
+> 
+> # View Results
+> #
+> window new WaveWindow -name "Waves for magic cell inv"
+> waveform add -using "Waves for magic cell inv" -signals $wave_signal_list
+> waveform xview zoom -using "Waves for magic cell inv" -outfull
+> 
+> }
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> 
+ncsim> ^C
+ncsim> exit
+TOOL:	ncverilog	10.20-s073: Exiting on Oct 10, 2013 at 09:46:09 BST  (total: 00:03:57)

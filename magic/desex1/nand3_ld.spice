@@ -1,0 +1,34 @@
+* HSPICE file created from nand3_ld.ext - technology: c035u
+
+.option scale=0.05u
+
+m1000 Yld1 Y Vdd Vdd pmos03553 w=30 l=7
+m1001 Vdd Vdd Yld1 Vdd pmos03553 w=30 l=7
+m1002 Yld1 Vdd Vdd Vdd pmos03553 w=30 l=7
+m1003 x0/active_29_34 Y GND GND nmos03553 w=26 l=7
+m1004 x0/active_56_34 Vdd x0/active_29_34 GND nmos03553 w=26 l=7
+m1005 Yld1 Vdd x0/active_56_34 GND nmos03553 w=26 l=7
+m1006 Yld0 Y Vdd Vdd pmos03553 w=30 l=7
+m1007 Vdd Vdd Yld0 Vdd pmos03553 w=30 l=7
+m1008 Yld0 Vdd Vdd Vdd pmos03553 w=30 l=7
+m1009 x1/active_29_34 Y GND GND nmos03553 w=26 l=7
+m1010 x1/active_56_34 Vdd x1/active_29_34 GND nmos03553 w=26 l=7
+m1011 Yld0 Vdd x1/active_56_34 GND nmos03553 w=26 l=7
+m1012 Y A Vdd Vdd pmos03553 w=30 l=7
+m1013 Vdd B Y Vdd pmos03553 w=30 l=7
+m1014 Y C Vdd Vdd pmos03553 w=30 l=7
+m1015 x2/active_29_34 A GND GND nmos03553 w=26 l=7
+m1016 x2/active_56_34 B x2/active_29_34 GND nmos03553 w=26 l=7
+m1017 Y C x2/active_56_34 GND nmos03553 w=26 l=7
+C0 C GND 0.9fF
+C1 B GND 0.9fF
+C2 A GND 0.9fF
+C3 Yld0 GND 1.6fF
+C4 Yld1 GND 1.6fF
+C5 Y GND 3.9fF
+C6 Vdd GND 6.2fF
+
+** hspice subcircuit dictionary
+* x0	nand3_2
+* x1	nand3_1
+* x2	nand3_0

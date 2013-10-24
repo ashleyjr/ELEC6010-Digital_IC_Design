@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
+.TITLE '** hspice file for nand3_ld'
+ fall_delay_a     fall_delay_b     fall_delay_c     average_fall_delay  
+ rise_delay_a     rise_delay_b     rise_delay_c     average_rise_delay  
+ difference_rise_fall temper           alter#            
+  2.167e-10        2.278e-10        2.292e-10        2.246e-10        
+  2.458e-10        2.293e-10        2.023e-10        2.258e-10        
+  1.264e-12         27.0000        1                 

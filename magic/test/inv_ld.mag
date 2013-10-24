@@ -1,0 +1,36 @@
+magic
+tech c035u
+timestamp 1381396119
+<< polysilicon >>
+rect 20 144 27 188
+rect 54 172 61 188
+rect 54 144 61 156
+rect 85 144 92 157
+rect 119 144 126 188
+rect 150 144 157 156
+rect 184 144 191 188
+<< polycontact >>
+rect 50 156 66 172
+rect 81 157 97 173
+rect 146 156 162 172
+<< metal1 >>
+rect 66 159 81 169
+rect 97 159 146 169
+use inv inv_0
+timestamp 1381396119
+transform 1 0 0 0 1 0
+box 0 0 65 144
+use inv inv_1
+timestamp 1381396119
+transform 1 0 65 0 1 0
+box 0 0 65 144
+use inv inv_2
+timestamp 1381396119
+transform 1 0 130 0 1 0
+box 0 0 65 144
+<< labels >>
+rlabel polysilicon 20 188 27 188 5 in
+rlabel polysilicon 54 188 61 188 5 out
+rlabel polysilicon 119 188 126 188 5 n1
+rlabel polysilicon 184 188 191 188 5 n2
+<< end >>

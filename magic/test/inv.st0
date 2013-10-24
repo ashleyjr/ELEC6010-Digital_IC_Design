@@ -1,0 +1,60 @@
+***** HSPICE -- D-2010.03-SP1 32-BIT (May 27 2010) linux ******
+ Input File: inv.sp
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   ajr2g10              HOSTNAME: hart.ecs.soton.ac.uk
+ lic: HOSTID: 002219c93c07         PID:      9615
+ lic: Using FLEXlm license file:
+ lic: 27006@uos-licserv4.soton.ac.uk
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 06-may-2014/2013.03
+ lic: FLOATING license(s) on SERVER uos-licserv4.soton.ac.uk
+ lic:
+ init: begin read circuit files,  cpu clock=  0.00E+00
+       option search   = /opt/cad/soft/synopsys/hspice/parts/ad
+       option search   = /opt/cad/soft/synopsys/hspice/parts/behave
+       option search   = /opt/cad/soft/synopsys/hspice/parts/bjt
+       option search   = /opt/cad/soft/synopsys/hspice/parts/burr_brn
+       option search   = /opt/cad/soft/synopsys/hspice/parts/comlinear
+       option search   = /opt/cad/soft/synopsys/hspice/parts/dio
+       option search   = /opt/cad/soft/synopsys/hspice/parts/fet
+       option search   = /opt/cad/soft/synopsys/hspice/parts/lin_tech
+       option search   = /opt/cad/soft/synopsys/hspice/parts/pci
+       option search   = /opt/cad/soft/synopsys/hspice/parts/signet
+       option search   = /opt/cad/soft/synopsys/hspice/parts/ti
+       option search   = /opt/cad/soft/synopsys/hspice/parts/tline
+       option search   = /opt/cad/soft/synopsys/hspice/parts/xilinx
+       option tnom     =     27.0
+       option scalm    =     1.00
+       option aspec    =     0.00
+       option tnom     =     27.0
+       option scalm    =     1.00
+       option aspec    =     0.00
+       option scale    =    5.000E-08
+       option post
+       option gmindc   =    1.000E-09
+ init: end read circuit files,  cpu clock=  1.00E-02 memory=    149 kb
+ init: begin check errors,  cpu clock=  1.00E-02
+ **warning**  No DC path to ground from node        0:                in
+ init: end check errors,  cpu clock=  1.00E-02 memory=    149 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.00E-02
+       establish matrix -- done,  cpu clock=  1.00E-02 memory=    149 kb
+       re-order matrix -- done,  cpu clock=  1.00E-02 memory=    149 kb
+ init: end setup matrix,  cpu clock=  1.00E-02 memory=    160 kb
+ dcop: begin dcop,  cpu clock=  1.00E-02
+ dcop: end dcop,  cpu clock=  1.00E-02 memory=    160 kb  tot_iter=       7
+ output: inv.tr0
+ sweep: tran tran0    begin, stop_t=  1.00E-08 #sweeps=1001 cpu clock=  1.00E-02
+ tran: time= 1.3827E-09 tot_iter=      14 conv_iter=       7 cpu clock= 1.00E-02
+ tran: time= 2.3827E-09 tot_iter=      18 conv_iter=       9 cpu clock= 1.00E-02
+ tran: time= 3.3827E-09 tot_iter=      22 conv_iter=      11 cpu clock= 1.00E-02
+ tran: time= 4.3827E-09 tot_iter=      26 conv_iter=      13 cpu clock= 1.00E-02
+ tran: time= 5.3827E-09 tot_iter=      30 conv_iter=      15 cpu clock= 1.00E-02
+ tran: time= 6.3827E-09 tot_iter=      34 conv_iter=      17 cpu clock= 1.00E-02
+ tran: time= 7.3827E-09 tot_iter=      38 conv_iter=      19 cpu clock= 1.00E-02
+ tran: time= 8.3827E-09 tot_iter=      42 conv_iter=      21 cpu clock= 1.00E-02
+ tran: time= 9.3827E-09 tot_iter=      46 conv_iter=      23 cpu clock= 1.00E-02
+ tran: time= 1.0000E-08 tot_iter=      50 conv_iter=      25 cpu clock= 1.00E-02
+ sweep: tran tran0    end,  cpu clock=  1.00E-02 memory=    160 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

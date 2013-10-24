@@ -1,0 +1,5 @@
+pullup (supply0,supply1)( vdd );
+pulldown (supply0,supply1)( gnd );
+
+pmos #1 ( out , vdd , in );
+nmos #1 ( out , gnd , in );

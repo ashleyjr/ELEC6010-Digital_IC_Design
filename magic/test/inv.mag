@@ -1,0 +1,54 @@
+magic
+tech c035u
+timestamp 1381396119
+<< nwell >>
+rect 0 68 65 143
+<< polysilicon >>
+rect 20 113 27 144
+rect 20 47 27 87
+rect 54 75 61 144
+rect 20 0 27 31
+rect 54 0 61 59
+<< ndiffusion >>
+rect 18 31 20 47
+rect 27 31 29 47
+<< pdiffusion >>
+rect 18 87 20 113
+rect 27 87 29 113
+<< ntransistor >>
+rect 20 31 27 47
+<< ptransistor >>
+rect 20 87 27 113
+<< polycontact >>
+rect 45 59 61 75
+<< ndiffcontact >>
+rect 2 31 18 47
+rect 29 31 45 47
+<< pdiffcontact >>
+rect 2 87 18 113
+rect 29 87 45 113
+<< psubstratetap >>
+rect 32 3 48 19
+<< nsubstratetap >>
+rect 32 127 48 143
+<< metal1 >>
+rect 0 127 32 143
+rect 48 127 65 143
+rect 0 123 65 127
+rect 2 113 18 123
+rect 29 47 45 87
+rect 2 21 18 31
+rect 0 19 65 21
+rect 0 3 32 19
+rect 48 3 65 19
+rect 0 1 65 3
+<< labels >>
+rlabel metal1 0 123 0 143 3 Vdd!
+rlabel metal1 0 1 0 21 3 GND!
+rlabel metal1 65 123 65 143 7 Vdd!
+rlabel metal1 65 1 65 21 7 GND!
+rlabel polysilicon 20 144 27 144 5 in
+rlabel polysilicon 54 144 61 144 5 out
+rlabel polysilicon 20 0 27 0 1 in
+rlabel polysilicon 54 0 61 0 1 out
+<< end >>
